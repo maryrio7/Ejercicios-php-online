@@ -1,0 +1,29 @@
+h1 {
+  color: blue;
+}
+div {
+  padding: 5px;
+  width: 400px;
+  height:100px ;
+  border:3px solid #9991e6;
+  background: #e7e6ff;
+}
+legend {
+  background:white;
+  border:2px solid #9991e6;
+  width:100px;
+  font-weight: bold;
+}
+table {
+  border: 3px solid #9991e6;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #9991e6;
+  border-collapse: collapse;
+  background: #e7e6ff;
+}
+.c2 {
+  text-align: right;
+  font-weight: bold;
+}

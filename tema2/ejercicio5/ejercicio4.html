@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf8">
+</head>
+<body>
+    <h1>Convertidor de temperaturas - Formulario</h1>
+
+<div style="width: 420px; height:200px ;border:1px solid purple; background:#FFB6C1">
+<form action="ejercicio4.php" method="post" >
+    <legend>Formulario</legend>
+    <p>Escriba una temperatura en grados Celsius o Fahrenheit
+    y la convertirá a la otra unidad</p>
+    <table>
+        <tr><td>Temperatura: </td>
+        <td><input type="number" name="temp" value="" 
+         required style="width:80px"></td>
+         <td><select name="tipo">
+            <option value="C" selected="selected">Celsius</option>
+            <option value="F">Fahrenheit</option>
+         </select></td></tr>
+    </table>
+    <span style="float:right; margin-right: 5px;">
+        <input type="submit" name="enviar" value="Convertir">
+        <input type="reset" name="borrar" value="Borrar">
+    </span>
+</form>
+</div>
+
+</body>
+</html>

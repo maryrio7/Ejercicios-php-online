@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta charset="utf8">
+</head>
+<body>
+    <h1>Tabla numerada - Formulario</h1>
+
+<div style="width: 420px; height:200px ;border:1px solid purple; background:#FFB6C1">
+<form action="ejercicio2.php" method="post" >
+    <legend>Formulario</legend>
+    <p>Escriba dos números y dibujaré una tabla con el número de columnas
+    (entre 1 y 10) que indique y con las primeras celdas numeradas
+    (entre 1 y 10).</p>
+    <table>
+        <tr><td>Numero de celdas numeradas: </td>
+        <td><input type="number" name="c1" value="" min="1" max="10" 
+         required></td></tr>
+        <tr><td>Numero de columnas: </td>
+        <td><input type="number" name="c2" value="" min="1" max="10" 
+         required></td></tr>
+    </table>
+    <span style="float:right; margin-right: 5px;">
+        <input type="submit" name="enviar" value="Escribir">
+        <input type="reset" name="borrar" value="Borrar">
+    </span>
+</form>
+</div>
+
+</body>
+</html>

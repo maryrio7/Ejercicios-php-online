@@ -1,0 +1,33 @@
+body{
+  background-color:  #f5f5fe;
+  width: 750px;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+div {
+  margin-top:20px;
+  border:3px solid #9991e6;
+  background: #e7e6ff;
+  padding-top:15px;
+  padding-left:15px;
+}
+h1 {
+  color:blue;
+  border:2px solid blue;
+  text-align:center;
+}
+table {
+  position: relative;
+  top: -20px;
+  margin-left: 10px;
+}
+td, th {
+  background: #e7e6ff;
+  text-align: left;
+}
+span{
+    line-height: 1.6;
+}
+#enviar {
+  margin-top: 5px;
+}

@@ -1,0 +1,60 @@
+body{
+  background-color:  #f5f5fe;
+  width: 750px;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+div {
+  margin-top:20px;
+  border:3px solid #9991e6;
+  background: #e7e6ff;
+  padding:15px;
+
+}
+p {
+  margin-left: 10px;
+  position: relative;
+  top: -15px;
+}
+h1 {
+  color:blue;
+  border:2px solid blue;
+  text-align:center;
+}
+textarea{
+  resize: none;
+}
+#receta{
+  width:300px;
+}
+legend {
+  background:white;
+  position:relative;
+  border:2px solid #9991e6;
+  width:100px;
+  font-weight: bold;
+  top: -25px;
+}
+#v1{
+  color:green;
+  font-weight: bold;
+}
+table {
+  position: relative;
+  top: -20px;
+  border: 3px solid #9991e6;
+  margin-left: 10px;
+}
+td, th {
+  background: #e7e6ff;
+  text-align: left;
+}
+span{
+    line-height: 1.6;
+}
+#enviar, #anadir {
+  margin-top: 5px;
+}
+.cant, .uds{
+  width: 100px;
+}
